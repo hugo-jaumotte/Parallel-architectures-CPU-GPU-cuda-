@@ -1,4 +1,4 @@
-# Matrix Multiplication — Parallel Architectures
+# Matrix Multiplication — Parallel Architectures (Academic Project)
 
 A performance comparison of matrix multiplication implementations across sequential (C++), multithreaded (C++), and GPU (CUDA) approaches.
 
