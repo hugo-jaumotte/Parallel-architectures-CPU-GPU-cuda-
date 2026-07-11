@@ -6,7 +6,7 @@ A performance comparison of matrix multiplication implementations across sequent
 
 ## Overview
 
-This project benchmarks several implementations of NxN matrix multiplication on the same machine, from a naive sequential approach to a GPU-accelerated CUDA version. The goal is to measure and compare the performance gains (and pitfalls) of parallelism in a concrete, compute-heavy problem.
+This project benchmarks several implementations of NxN matrix multiplication on the same machine, from a sequential approach to a GPU-accelerated CUDA version. The goal is to measure and compare the performance gains (and pitfalls) of parallelism in a concrete, compute-heavy problem.
 
 ---
 
