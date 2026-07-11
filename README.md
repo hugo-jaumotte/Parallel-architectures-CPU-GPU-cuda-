@@ -2,9 +2,6 @@
 
 A performance comparison of matrix multiplication implementations across sequential (C++), multithreaded (C++), and GPU (CUDA) approaches.
 
-> **Author:** Jaumotte Hugo  
-> **Date:** June 2026
-
 ---
 
 ## Overview
@@ -53,7 +50,7 @@ Execution times in microseconds for each approach:
 | 1500×1500 | 8 416 846 | 1 261 800 | 1 046 745 | 1 018 748 | 27 254 |
 | 2000×2000 | 25 201 809 | 3 931 811 | 2 799 776 | 3 075 235 | 56 058 |
 
-**CUDA with 128 blocks × 128 threads achieves a 99.78% reduction in execution time compared to the sequential version for a 2000×2000 matrix.**
+**CUDA with 128 blocks × 128 threads achieves a 450× speedup over the sequential implementation for a 2000×2000 matrix (99.78% reduction in execution time)**
 
 ---
 
