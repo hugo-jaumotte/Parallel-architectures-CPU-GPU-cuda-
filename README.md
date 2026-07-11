@@ -41,7 +41,7 @@ This project benchmarks several implementations of NxN matrix multiplication on 
 
 ## Key Results
 
-Execution times in microseconds for the best configuration of each approach:
+Execution times in microseconds for each approach:
 
 ![Execution Time](results.png)
 
