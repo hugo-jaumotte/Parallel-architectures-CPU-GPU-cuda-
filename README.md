@@ -43,6 +43,8 @@ This project benchmarks several implementations of NxN matrix multiplication on 
 
 Execution times in microseconds for the best configuration of each approach:
 
+![Execution Time](docs/performance.png)
+
 | Matrix size | Sequential | 1 thread/row | 4A (8 threads) | 4B (8 threads) | CUDA (128×128) |
 |-------------|-----------|--------------|----------------|----------------|----------------|
 | 100×100 | 2 185 | 9 873 | 2 604 | 3 006 | 1 661 |
